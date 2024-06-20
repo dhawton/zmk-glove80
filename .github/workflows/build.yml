@@ -5,10 +5,16 @@ on: [push, pull_request, workflow_dispatch]
 jobs:
   build:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        os: [linux, windows]
     steps:
       - uses: actions/checkout@v4
         with:
           submodules: recursive
+      - if: matrix.os == 'windows'
+        run: |
+          sed -i '/^#define HOST_OS 1/d' config/glove80.keymap
       - uses: actions/checkout@v4
         with:
           repository: moergo-sc/zmk
@@ -28,5 +34,5 @@ jobs:
       - name: Upload result
         uses: actions/upload-artifact@v4
         with:
-          name: glove80.uf2
+          name: glove80-${{ matrix.os }}.uf2
           path: glove80.uf2
