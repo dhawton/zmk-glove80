@@ -12,7 +12,7 @@
 
 #define QUICK_TAP_MS 175
 #define THUMB_QUICK_TAP_MS 250
-#define TAPPING_TERM_MS 500
+#define TAPPING_TERM_MS 250
 
 #define LAYER_BASE 0
 #define LAYER_MAGIC 1
@@ -197,9 +197,6 @@ ZMK_UNICODE_PAIR(de_eszett, N0, N0,  D,  F,    N1,  E, N9,  E)
 ZMK_UNICODE_PAIR(si_ccaron, N0, N1, N0,  D,    N0, N1, N0,  C) // Č (C with caron)
 ZMK_UNICODE_PAIR(si_scaron, N0, N1, N6, N1,    N0, N1, N6, N0) // Š (S with caron)
 ZMK_UNICODE_PAIR(si_zcaron, N0, N1, N7,  E,    N0, N1, N7,  D) // Ž (Z with caron)
-
-ZMK_COMBO(lf_space, &kp SPACE, LB3 LB2 LB1, LAYER_BASE, 50)  // D V in 1 press = space
-ZMK_COMBO(lf_tab, &kp TAB, LB2 LB1, LAYER_BASE, 50)      // C X in 1 press = tab
 
 GLV80_LAYER(base,
 // ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮                                   ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮
