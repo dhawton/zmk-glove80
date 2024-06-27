@@ -26,94 +26,94 @@
 #define GLV80_LAYER(name, start, mid, end, thumb_row_1, thumb_row_2) \
   ZMK_LAYER(name, start thumb_row_1 mid thumb_row_2 end)
 
-#define LC1  4  // left-ceiling row
-#define LC2  3
-#define LC3  2
-#define LC4  1
-#define LC5  0
+#define LC1 4 // left-ceiling row
+#define LC2 3
+#define LC3 2
+#define LC4 1
+#define LC5 0
 
-#define RC1  5  // right-ceiling row
-#define RC2  6
-#define RC3  7
-#define RC4  8
-#define RC5  9
+#define RC1 5 // right-ceiling row
+#define RC2 6
+#define RC3 7
+#define RC4 8
+#define RC5 9
 
-#define LN0 15  // left-number row
+#define LN0 15 // left-number row
 #define LN1 14
 #define LN2 13
 #define LN3 12
 #define LN4 11
 #define LN5 10
 
-#define RN0 16  // right-number row
+#define RN0 16 // right-number row
 #define RN1 17
 #define RN2 18
 #define RN3 19
 #define RN4 20
 #define RN5 21
 
-#define LT0 27  // left-top row
+#define LT0 27 // left-top row
 #define LT1 26
 #define LT2 25
 #define LT3 24
 #define LT4 23
 #define LT5 22
 
-#define RT0 28  // right-top row
+#define RT0 28 // right-top row
 #define RT1 29
 #define RT2 30
 #define RT3 31
 #define RT4 32
 #define RT5 33
 
-#define LM0 39  // left-middle row
+#define LM0 39 // left-middle row
 #define LM1 38
 #define LM2 37
 #define LM3 36
 #define LM4 35
 #define LM5 34
 
-#define RM0 40  // right-middle row
+#define RM0 40 // right-middle row
 #define RM1 41
 #define RM2 42
 #define RM3 43
 #define RM4 44
 #define RM5 45
 
-#define LB0 51  // left-bottom row
+#define LB0 51 // left-bottom row
 #define LB1 50
 #define LB2 49
 #define LB3 48
 #define LB4 47
 #define LB5 46
 
-#define RB0 58  // right-bottom row
+#define RB0 58 // right-bottom row
 #define RB1 59
 #define RB2 60
 #define RB3 61
 #define RB4 62
 #define RB5 63
 
-#define LF1 68  // left-floor row
+#define LF1 68 // left-floor row
 #define LF2 67
 #define LF3 66
 #define LF4 65
 #define LF5 64
 
-#define RF1 75  // right-floor row
+#define RF1 75 // right-floor row
 #define RF2 76
 #define RF3 77
 #define RF4 78
 #define RF5 79
 
-#define LH0 71  // left thumb keys
+#define LH0 71 // left thumb keys
 #define LH1 70
 #define LH2 69
 #define LH3 54
 #define LH4 53
 #define LH5 52
 
-#define RH0 72  // right thumb keys
+#define RH0 72 // right thumb keys
 #define RH1 73
 #define RH2 74
 #define RH3 55
