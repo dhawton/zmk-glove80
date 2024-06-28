@@ -12,7 +12,7 @@
 
 #define QUICK_TAP_MS 175
 #define THUMB_QUICK_TAP_MS 250
-#define TAPPING_TERM_MS 125
+#define TAPPING_TERM_MS 250
 #define COMBO_TIMING 25
 
 #define LAYER_BASE 0
